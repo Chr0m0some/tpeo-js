@@ -39,6 +39,8 @@ function convertNumberToDay(number){
         case 6:
             console.log("Saturday");
             break;
+        default:
+            console.log("Not a valid day of the week");
     }
 }
 
